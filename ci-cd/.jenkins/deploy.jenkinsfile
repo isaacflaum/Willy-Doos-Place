@@ -2,23 +2,36 @@ pipeline {
     agent any
 
     stages {
-        stage('Git Checkout') {
+        stage('Stop Nginx') {
             steps {
-                echo 'Checking out from git..'
+                sh 'sudo systemctl stop nginx'
             }
         }
-        stage('Deploy') {
+        stage('Stop Jekyll Server') {
+            steps {
+                sh 'sudo pkill -f jekyll'
+            }
+        }
+        stage('Copy new static assets') {
             steps {
                 sh '''
-                    sudo systemctl stop nginx
-                    sudo pkill -f jekyll
                     cp -r blog ~/
                     sudo chown -R jenkins:jenkins blog
+                '''
+            }
+        }
+        stage('Start Jekyll Server') {
+            steps {
+                sh '''
                     cd ~/blog
                     sudo /var/lib/jenkins/gems/bin/bundle install
                     sudo /var/lib/jenkins/gems/bin/bundle exec jekyll serve &
-                    sudo systemctl start nginx
                 '''
+            }
+        }
+        stage('Start Nginx') {
+            steps {
+                sh 'sudo systemctl start nginx'
             }
         }
     }
