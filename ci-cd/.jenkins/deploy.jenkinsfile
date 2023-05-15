@@ -13,6 +13,8 @@ pipeline {
                     sudo systemctl stop nginx
                     sudo pkill -f jekyll
                     cp -r blog ~/
+                    cd ~/blog
+                    bundle install
                     bundle exec jekyll serve
                     sudo systemctl start nginx
                 '''
