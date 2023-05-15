@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git Checkout') {
+            steps {
+                echo 'Checking out from git..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh '''
+                    sudo systemctl stop nginx
+                    sudo pkill -f jekyll
+                    cp -r blog ~/
+                    bundle exec jekyll serve
+                    sudo systemctl start nginx
+                '''
+            }
+        }
+    }
+}
