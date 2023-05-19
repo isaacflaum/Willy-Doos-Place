@@ -23,9 +23,9 @@ author:
   name: Isaac Flaum
   email: isaac.flaum@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Isaac, a software engineer, thermal and solar enthusiast and guinea pig dad. These are some of my exploits.
+  Willy Doo's place. All things Guinea Pig, Thermal Imaging and Solar Power :)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://willydoos.pl" # the base hostname & protocol for your site, e.g. http://example.com
 
 defaults:
   - scope:
