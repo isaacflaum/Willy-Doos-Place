@@ -10,7 +10,7 @@ Thermal Cameras work by converting photons in the 20THz-40THz range (which are h
 
 [Thermal Color Palettes](https://www.flir.com/discover/industrial/picking-a-thermal-color-palette/)
 
-For my images I mostly use FLIR's low-contrast Ironbow palette making it easy to distinguish hot and cold colors, as well as the high-contrast Rainbow palette which is useful for visualizing small changes in temperature or gradients. Without further ado, here is the first photo dump.
+For my images I mostly use FLIR's low-contrast Ironbow palette making it easy to distinguish hot and cold colors, as well as the high-contrast Rainbow palette which is useful for visualizing small changes in temperature or gradients. Without further ado, here is the first photo dump from my walk through Cape Elizabeth's Greenbelt System.
 
 ### Images
 
