@@ -31,7 +31,7 @@ Even mundane outdoor photos contain a wealth of information in the thermal spect
 ### Different plants on the ground retain heat differently
 ![](/images/thermal-journey-1/trailthermal.jpg)
 
-### The Water is still very cold - 47 degrees!
+### The Water in Maine is still very cold - 47 degrees!
 ![](/images/thermal-journey-1/pondandskythermal.jpg)
 
 ### Last but certainly not least, Willy Doo!
