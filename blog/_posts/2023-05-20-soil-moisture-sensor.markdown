@@ -48,4 +48,4 @@ while True:
 And after a bit of tinkering with pins and some minor coding errors I got a working prototype! Here it is below, reading the temperature and moisture level of a small potted plant. After watering the plant, I observe the moisture reading go up to ~1000 so the sensor is working!
 
 ### The Result
-![](/images/soil-moisture/finalresult.png)
+![](/images/soil-moisture/finalresult.webp)

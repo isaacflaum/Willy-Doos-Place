@@ -25,14 +25,14 @@ You can check out the project [on github here](https://github.com/isaacflaum/fla
 And here is what everything ended up looking like:
 
 ### Socket for the memory chip
-![Here's the board](/images/simple-cartridge/icsocket.png)
+![Here's the board](/images/simple-cartridge/icsocket.webp)
 
 ### Resistor and Capacitor
-![Here's the board](/images/simple-cartridge/passives.png)
+![Here's the board](/images/simple-cartridge/passives.webp)
 
 ### The Whole Cartridge
-![Here's the board](/images/simple-cartridge/cartridge.png)
+![Here's the board](/images/simple-cartridge/cartridge.webp)
 
 ### The Final Result
 A custom `game` I created and uploaded to the memory chip to show it works. I used the TL866II programming adapter along with a PLCC-32 to DIP socket adapter to write the gameboy game to the memory chip. It's not actually a game but just a logo I quickly whipped up in GIMP as a proof-of-concept for the awesome Factory 3 maker-space in Portland.
-![Here's the game](/images/simple-cartridge/finalresult.png)
+![Here's the game](/images/simple-cartridge/finalresult.webp)

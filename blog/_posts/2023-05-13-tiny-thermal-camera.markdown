@@ -152,7 +152,7 @@ except KeyboardInterrupt:
 # And here's the final result:
 
 ### Camera all wired up
-![Here's the camera all wired up](/images/tiny-thermal/tiny-thermal-full.png)
+![Here's the camera all wired up](/images/tiny-thermal/tiny-thermal-full.webp)
 
 ### Close up of the display
-![Close-up of the display](/images/tiny-thermal/tiny-thermal-close.png)
+![Close-up of the display](/images/tiny-thermal/tiny-thermal-close.webp)

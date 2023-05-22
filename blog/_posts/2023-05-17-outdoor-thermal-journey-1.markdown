@@ -16,25 +16,25 @@ For my images I mostly use FLIR's low-contrast Ironbow palette making it easy to
 
 Regular                                         |  Thermal
 :----------------------------------------------:|:-------------------------------------------------:
-![](/images/thermal-journey-1/trail1plain.jpg)  |  ![](/images/thermal-journey-1/trail1thermal.jpg)
-![](/images/thermal-journey-1/trail2plain.jpg)  |  ![](/images/thermal-journey-1/trail2thermal.jpg)
-![](/images/thermal-journey-1/trail3plain.jpg)  |  ![](/images/thermal-journey-1/trail3thermal.jpg)
+![](/images/thermal-journey-1/trail1plain.webp)  |  ![](/images/thermal-journey-1/trail1thermal.webp)
+![](/images/thermal-journey-1/trail2plain.webp)  |  ![](/images/thermal-journey-1/trail2thermal.webp)
+![](/images/thermal-journey-1/trail3plain.webp)  |  ![](/images/thermal-journey-1/trail3thermal.webp)
 
 Even mundane outdoor photos contain a wealth of information in the thermal spectrum. The second and third thermal photos look like they are straight out of Alice in Wonderland! What I find most interesting is the 10-15 degree difference between the various parts of the ground, underbrush, shrubs and trees. Below are some more observations.
 
 ### Tree leaves are warmer than the surrounding air, but not warmer than the trunk
-![](/images/thermal-journey-1/treethermal.jpg)
+![](/images/thermal-journey-1/treethermal.webp)
 
 ### Boardwalk retains heat well
-![](/images/thermal-journey-1/boardwalkthermal.jpg)
+![](/images/thermal-journey-1/boardwalkthermal.webp)
 
 ### Different plants on the ground retain heat differently
-![](/images/thermal-journey-1/trailthermal.jpg)
+![](/images/thermal-journey-1/trailthermal.webp)
 
 ### The Water in Maine is still very cold - 47 degrees!
-![](/images/thermal-journey-1/pondandskythermal.jpg)
+![](/images/thermal-journey-1/pondandskythermal.webp)
 
 ### Last but certainly not least, Willy Doo!
-![](/images/thermal-journey-1/willydoo.jpg)
+![](/images/thermal-journey-1/willydoo.webp)
 
 That concludes my first photo journey, thanks for taking it with me!
