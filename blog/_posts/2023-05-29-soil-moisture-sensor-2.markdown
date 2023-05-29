@@ -28,10 +28,10 @@ Introducing the MiniBoost from Adafruit to the rescue!
 water_pump_enable = digitalio.DigitalInOut(board.GP16)
 water_pump_enable.direction = digitalio.Direction.OUTPUT
 
-# Turn off water pump
+# Turn off water pump - sets GP16 to 0V
 water_pump_enable.value = False
 
-# Turn on water pump
+# Turn on water pump - sets GP16 to 3V
 water_pump_enable.value = True
 {% endhighlight %}
 
