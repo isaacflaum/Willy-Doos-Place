@@ -37,18 +37,18 @@ water_pump_enable.value = True
 
 Eventually this did do the job. The soil moisture sensor communicated with the Pico to turn on or off the pump, but something was off. I'm not a huge fan of mixing water and electronics. The idea of the pump plus some wires having to be submerged in water didn't sit right. Sure it's only 3 Volts, but even the [seller doesn't recommend using it for long term projects - boo!](https://www.adafruit.com/product/4547)
 
-So what can we do?!?!?! Peristaltic water pumps to the rescue! What the heck are those and why are they so useful? The word `Peristaltic` comes from `Peristalsis`
+So what can we do?!?!?! Peristaltic water pumps to the rescue! What the heck are those and why are they so useful? The word `Peristaltic` comes from `Peristalsis` defined as
 ```
 The wave-like muscle contractions that move food through the digestive tract. 
 ```
-Similar to the human digestive tract, we can use a motor to expand and contract silicone tubing to push water (or other fluids)! Here is an example of the inside of a Peristaltic pump - note the 3 regions being `squeezed` by the rotating piece and how this pushes fluid through.
+Similar to the human digestive tract, we can use a motor to expand and contract silicone tubing to pump water (or other fluids)! Here is an example of the inside of a Peristaltic pump - note the 3 regions being `squeezed` by the rotating piece and how this pushes fluid through.
 ![](https://www.pumpsandsystems.com/sites/default/files/0718/flexflo_pumphead.jpg)
 
 The advantage to Peristaltic pumps is durability since the motor and parts never come in contact with the liquid being pumped. a Peristaltic pump is exactly what we are looking for - no more mixing water and electronics! Here is the second take with the Peristaltic pump in the bottom right. Note that the pump is completely separate from the water this time!
 
 ![](/images/soil-moisture-2/betterMotor.webp)
 
-I am quite pleased with the final result. Every 30 seconds we check the moisture level of the soil and turn on the pump for 10 seconds to water the plant :)
+I am quite pleased with the final result. Every 30 seconds we check the moisture level of the soil and turn on the pump for 10 seconds to water the plant :) Although the Peristaltic water pump operates at 5-Volts and not 3-Volts like the other motor, we were able to wire it the same as the MiniBoost does boost the signal to 5-Volts if it is not already.
 
 ### Final Result
 ![](/images/soil-moisture-2/finalResult.webp)
